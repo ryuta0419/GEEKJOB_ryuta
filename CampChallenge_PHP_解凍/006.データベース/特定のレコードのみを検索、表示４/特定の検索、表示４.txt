@@ -1,0 +1,4 @@
+「特定のレコードのみを検索、表示４」
+
+ select * from profiles
+    -> where name like '%実%';
