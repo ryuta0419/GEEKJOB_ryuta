@@ -1,0 +1,8 @@
+「特定のレコードのみを検索、表示２，３」
+
+ select * from profiles
+    -> where age=24;
+
+
+select * from profiles
+    -> where age>25;
