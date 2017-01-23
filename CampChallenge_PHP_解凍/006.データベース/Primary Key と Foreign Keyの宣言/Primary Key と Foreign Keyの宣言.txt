@@ -1,0 +1,31 @@
+「Primary Key と Foreign Keyの宣言」
+
+create table challenge_user
+->(profileID int,name varcher(255),tell varchar(255),age int,birthday date,departmentID int,stationID int);
+
+insert into challenge_user
+->valurs(1,'田中 実','012-345-6789',30,'1994-02-01');
+->values(2,'鈴木 茂','090-1122-3344',37,'1987-08-12');
+->values(3,'鈴木 実','080-5566-7788',24,'2000-12-24');
+->values(4,'佐藤 清','012-0987-6543',19,'2005-08-01');
+->values(5,'佐藤 清','090-9900-1234',24,'2000-12-24');
+
+create table challenge_db.departmentID
+->(departmentID int,departmentName varchar(255));
+
+insert into challenge_db.departmentID
+->valurs(1,'開発部');
+->valurs(2,'営業部');
+->valurs(3,'総務部');
+
+create table challenge_db.station
+->(stationID int,stationName varchar(255));
+
+insert into challenge_db.station
+->valurs(1,'九段下');
+->valurs(2,'永田町');
+->valurs(3,'渋谷');
+->valurs(4,'神保町');
+->valurs(5,'上井草');
+
+
