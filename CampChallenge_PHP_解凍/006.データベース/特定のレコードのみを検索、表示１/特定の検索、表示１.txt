@@ -1,0 +1,4 @@
+「特定のレコードのみを検索、表示１」
+
+select * from profiles
+    -> where name ='高橋 清';
