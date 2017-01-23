@@ -1,0 +1,5 @@
+「特定のレコードの更新」
+
+update profiles
+    -> set name ='吉田 茂'
+    -> where profileID =2;
