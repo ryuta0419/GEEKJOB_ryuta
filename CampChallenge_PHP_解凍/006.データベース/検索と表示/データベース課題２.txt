@@ -1,0 +1,4 @@
+uŒŸõ‚Æ•\Ž¦v
+
+ select * from profiles
+    -> where profilesID=3;
