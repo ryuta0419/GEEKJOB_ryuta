@@ -1,0 +1,4 @@
+「特定のレコードの削除」
+
+delete from profiles
+    -> where birhday = '2000-12-24';
