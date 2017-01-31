@@ -45,7 +45,8 @@ echo $wata->getmember().'<br>'.'<br>';
 echo $ama->getmember().'<br>'.'<br>';
 echo $hori->getMember().'<br>'.'<br>';
 echo $koba->getMember().'<br>'.'<br>';
-]
+
+
 $koba->Clesr();
 echo $koba->getMember();
 
